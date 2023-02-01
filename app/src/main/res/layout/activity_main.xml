@@ -19,14 +19,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/captura"
-            android:layout_marginStart="150dp"
+            android:layout_marginStart="170dp"
             android:layout_marginTop="120dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/canada_lo"
-            android:layout_marginStart="133dp"
+            android:layout_marginStart="148dp"
             android:textColor="@color/white"
             android:textSize="25sp"/>
 
@@ -44,28 +44,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
-            android:text="@string/username"
+            android:text="@string/usuario"
             android:textColor="#808080"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Password"
+            android:text="@string/contrase_a"
             android:textColor="#808080"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Send_otp"
+            android:text="@string/ingresar"
+            android:backgroundTint=""
 
             android:layout_marginTop="25dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register_now"
-            android:layout_marginStart="158dp"
+            android:text="@string/registrar_ahora"
+            android:layout_marginStart="150dp"
             android:textColor="#808080"
             android:layout_marginTop="15dp"
             android:textSize="13sp"/>
