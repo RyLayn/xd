@@ -64,7 +64,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:backgroundTint="#dc3545"
-            android:text="@string/ingresar" />
+            android:text="@string/ingresar"
+            android:background="@drawable/rounded_corner"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -73,7 +74,8 @@
             android:layout_marginTop="15dp"
             android:text="@string/registrar_ahora"
             android:textColor="#000"
-            android:textSize="13sp" />
+            android:textSize="13sp"
+            android:id="@+id/registrar"/>
 
     </LinearLayout>
 

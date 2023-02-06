@@ -1,10 +1,12 @@
 package com.angel.xd
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -15,11 +17,14 @@ class MainActivity : AppCompatActivity() {
         val username: EditText = findViewById(R.id.user)
         val loginButton: Button = findViewById(R.id.login_button)
         loginButton.setOnClickListener {
-            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
-            var angel: String = "Hola mundo"
-            angel = "Hola a todos"
-            loginButton.text = angel
-            username.setText("Usuarito")
+            val intent = Intent(this,MenuPrincipal::class.java)
+            startActivity(intent)
+        }
+
+        val textViewRegistrar: TextView = findViewById<TextView>(R.id.registrar)
+        textViewRegistrar.setOnClickListener {
+            val intent = Intent(this, MenuRegistro::class.java)
+            startActivity(intent)
         }
 
         val imageButton: ImageView = findViewById(R.id.imagenl)
