@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
-        android:text="Registro"
+        android:text="@string/registro"
         android:textColor="@color/colorPrincipal"
         android:textSize="25sp"
         android:textStyle="bold">
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="15dp"
-        android:text="!Crea tu nueva cuenta!"
+        android:text="@string/crea_tu_nueva_cuenta"
         android:textSize="15sp">
 
     </TextView>
@@ -37,10 +37,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
-        android:text="Nombre Completo"
+        android:text="@string/nombre_completo"
         android:textColor="@color/colorPrincipal"
         android:textStyle="italic"
-        android:textSize="18dp">
+        android:textSize="18sp">
 
     </TextView>
 
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="20dp"
-        android:text="_____________________________________________">
+        android:text="@string/espacios_texto">
 
     </EditText>
 
@@ -59,10 +59,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:text="Correo Electronico"
+        android:text="@string/correo_registro"
         android:textColor="@color/colorPrincipal"
         android:textStyle="italic"
-        android:textSize="18dp">
+        android:textSize="18sp">
 
     </TextView>
 
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="20dp"
-        android:text="_____________________________________________">
+        android:text="@string/espacios_texto">
 
     </EditText>
 
@@ -80,10 +80,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
-        android:text="Contraseña"
+        android:text="@string/contra_Crear"
         android:textColor="@color/colorPrincipal"
         android:textStyle="italic"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:layout_marginTop="10dp">
 
     </TextView>
@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="20dp"
-        android:text="_____________________________________________">
+        android:text="@string/espacios_texto">
 
     </EditText>
 
@@ -102,10 +102,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
-        android:text="Repetir Contraseña"
+        android:text="@string/repetir_contrase_a"
         android:textColor="@color/colorPrincipal"
         android:textStyle="italic"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:layout_marginTop="10dp">
 
     </TextView>
@@ -115,7 +115,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="20dp"
-        android:text="_____________________________________________">
+        android:text="@string/espacios_texto">
 
     </EditText>
 
@@ -125,8 +125,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="25dp"
-        android:text="Para continuar debe aceptar los terminos de servicio y politicas de privacidad"
-        android:textSize="15d">
+        android:text="@string/Texto_Politicas"
+        android:textSize="15sp">
 
     </TextView>
 
@@ -137,15 +137,16 @@
         android:layout_marginStart="130dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/rounded_corner"
-        android:text="Crear Cuenta">
+        android:text="@string/crear_cuenta">
 
     </Button>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="¿Ya tienes una cuenta? Inicia sesión"
+        android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n"
         android:layout_marginStart="90dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:id="@+id/inicioses">
 
     </TextView>
 </LinearLayout>

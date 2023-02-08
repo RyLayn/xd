@@ -27,10 +27,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val textViewInicio: TextView=findViewById(R.id.inicioses)
+        textViewInicio.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
         val imageButton: ImageView = findViewById(R.id.imagenl)
         imageButton.setOnClickListener {
             Toast.makeText(this@MainActivity, "Vamos a morir", Toast.LENGTH_SHORT).show()
-
         }
 
 
