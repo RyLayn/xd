@@ -16,4 +16,11 @@
     <string name="ya_tienes_una_cuenta_inicia_sesi_n">¿Ya tienes una cuenta? Inicia sesión</string>
     <string name="contra_Crear">Contraseña</string>
     <string name="correo_registro">Correo Electronico</string>
+    <string name="bienvenido_de_vuelta">Bienvenido de vuelta!</string>
+    <string name="inicia_sesi_n_en_tu_cuenta">Inicia sesión en tu cuenta</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="loginText">Iniciar Sesion</string>
+    <string name="registerQuestion">Aun no tienes una cuenta?</string>
+    <string name="register">Registrate</string>
 </resources>
