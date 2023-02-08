@@ -45,11 +45,11 @@
     </TextView>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/espacios_texto">
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp">
 
     </EditText>
 
@@ -130,18 +130,21 @@
 
     </TextView>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botoncrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:background="@drawable/rounded_corner"
+        android:textColor="@color/white"
         android:text="@string/crear_cuenta">
 
-    </Button>
+    </androidx.appcompat.widget.AppCompatButton>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n"
         android:layout_marginStart="90dp"
