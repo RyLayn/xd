@@ -39,8 +39,8 @@
         android:layout_marginTop="40dp"
         android:text="@string/nombre_completo"
         android:textColor="@color/colorPrincipal"
-        android:textStyle="italic"
-        android:textSize="18sp">
+        android:textSize="18sp"
+        android:textStyle="italic">
 
     </TextView>
 
@@ -48,8 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp">
 
     </EditText>
 
@@ -61,8 +61,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/correo_registro"
         android:textColor="@color/colorPrincipal"
-        android:textStyle="italic"
-        android:textSize="18sp">
+        android:textSize="18sp"
+        android:textStyle="italic">
 
     </TextView>
 
@@ -80,11 +80,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
         android:text="@string/contra_Crear"
         android:textColor="@color/colorPrincipal"
-        android:textStyle="italic"
         android:textSize="18sp"
-        android:layout_marginTop="10dp">
+        android:textStyle="italic">
 
     </TextView>
 
@@ -102,11 +102,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
         android:text="@string/repetir_contrase_a"
         android:textColor="@color/colorPrincipal"
-        android:textStyle="italic"
         android:textSize="18sp"
-        android:layout_marginTop="10dp">
+        android:textStyle="italic">
 
     </TextView>
 
@@ -134,22 +134,23 @@
         android:id="@+id/botoncrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:background="@drawable/rounded_corner"
-        android:textColor="@color/white"
-        android:text="@string/crear_cuenta">
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/crear_cuenta"
+        android:textColor="@color/white">
 
     </androidx.appcompat.widget.AppCompatButton>
+
     <TextView
+        android:id="@+id/iniciocuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n"
         android:layout_marginStart="90dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/iniciocuenta">
+        android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n">
 
     </TextView>
 </LinearLayout>

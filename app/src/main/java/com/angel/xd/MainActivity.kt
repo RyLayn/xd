@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val username: EditText = findViewById(R.id.email)
         val loginButton: AppCompatButton = findViewById(R.id.loginButton)
         loginButton.setOnClickListener {
-            val intent = Intent(this,MenuPrincipal::class.java)
+            val intent = Intent(this, MenuPrincipal::class.java)
             startActivity(intent)
         }
 
