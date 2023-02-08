@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val textViewInicio: TextView=findViewById(R.id.inicioses)
+        val textViewInicio: TextView=findViewById(R.id.iniciocuenta)
         textViewInicio.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
