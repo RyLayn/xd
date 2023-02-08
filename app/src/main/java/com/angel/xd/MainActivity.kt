@@ -17,19 +17,13 @@ class MainActivity : AppCompatActivity() {
         val username: EditText = findViewById(R.id.user)
         val loginButton: Button = findViewById(R.id.login_button)
         loginButton.setOnClickListener {
-            val intent = Intent(this,MenuPrincipal::class.java)
+            val intent = Intent(this, MenuPrincipal::class.java)
             startActivity(intent)
         }
 
         val textViewRegistrar: TextView = findViewById<TextView>(R.id.registrar)
         textViewRegistrar.setOnClickListener {
             val intent = Intent(this, MenuRegistro::class.java)
-            startActivity(intent)
-        }
-
-        val textViewInicio: TextView=findViewById(R.id.iniciocuenta)
-        textViewInicio.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
