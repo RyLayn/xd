@@ -45,6 +45,7 @@
     </TextView>
 
     <EditText
+        android:id="@+id/nombrecomp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -67,11 +68,12 @@
     </TextView>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/correoelec"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/espacios_texto">
+        android:layout_marginEnd="20dp">
 
     </EditText>
 
@@ -89,11 +91,12 @@
     </TextView>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/espacios_texto">
+        android:layout_marginEnd="20dp">
 
     </EditText>
 
@@ -111,11 +114,12 @@
     </TextView>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/repetirpassword"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/espacios_texto">
+        android:layout_marginEnd="20dp">
 
     </EditText>
 
@@ -131,7 +135,7 @@
     </TextView>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botoncrear"
+        android:id="@+id/botonregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -149,7 +153,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n">
 
     </TextView>
