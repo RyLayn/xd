@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import org.w3c.dom.Text
 
-class MoviesAdapter(private val list: List<String>) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
+class MoviesAdapter(private val list: List<Result>) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
     class ViewHolder(itemViewHolder: View) : RecyclerView.ViewHolder(itemViewHolder) {
         val movieImage:ImageView = itemViewHolder.findViewById(R.id.movieimg)
         val movieName:TextView = itemViewHolder.findViewById(R.id.moviename)
@@ -22,7 +22,7 @@ class MoviesAdapter(private val list: List<String>) : RecyclerView.Adapter<Movie
 
     override fun onBindViewHolder(holder: MoviesAdapter.ViewHolder, position: Int) {
         val itemViewHolder = list [position]
-        holder.movieName.text = itemViewHolder
+        holder.movieName.text = itemViewHolder.title
     }
 
     override fun getItemCount(): Int {
